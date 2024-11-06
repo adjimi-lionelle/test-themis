@@ -1,0 +1,36 @@
+/* src/assets/auth.css */
+.auth-container {
+    background-color: #2C3E50; /* Bleu nuit */
+    height: 100%;
+  }
+  
+  .btn-dark {
+    background-color: #E67E22; /* Orange foncé */
+    border-color: #E67E22;
+  }
+  
+  .btn-dark:hover {
+    background-color: #D35400; /* Couleur légèrement plus foncée au survol */
+  }
+  
+  .img-fluid {
+    object-fit: cover;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  @media (max-width: 991.98px) {
+    /* Masquer l'image sur les écrans petits et moyens (≤ 992px) */
+    .d-lg-block {
+      display: none !important;
+    }
+  
+    /* Centrer et ajuster la taille du formulaire sur petits écrans */
+    .auth-container {
+      padding: 20px;
+      width: 700Px;
+    }
+  }
+  

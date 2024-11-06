@@ -1,0 +1,33 @@
+# Docker-specific files
+Dockerfile
+#docker/
+
+# Symfony vendor dependencies
+/vendor
+
+# Logs and temporary files
+/var
+!var/.gitkeep
+#/migrations
+
+# Environment configuration files
+
+.env.example
+.env.testing
+
+# PHPUnit test files
+.phpunit.result.cache
+
+# Fichiers de cache de Composer
+composer.lock
+
+# Git files
+.git
+.gitignore
+
+storage/logs
+storage/framework/cache
+storage/framework/sessions
+storage/framework/testing
+storage/framework/views
+
