@@ -46,8 +46,13 @@ cd project-root
 3. Configurer l'environnement :
 
     - Dupliquer le fichier `.env.example` en `.env` et ajuster les valeurs si nécessaire.
-    - Définir les informations de base de données (DB_DATABASE, DB_USERNAME, DB_PASSWORD).
-    - Définir `APP_URL=http://localhost:8000` pour le développement local.
+    DB_CONNECTION=mysql
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=laravel
+    DB_USERNAME=root      
+    DB_PASSWORD=             
+    
 
 4. Générer la clé d'application Laravel :
 
@@ -67,7 +72,7 @@ cd project-root
     php artisan serve
     ```
 
-7. Le backend sera accessible à `http://localhost:8000`.
+7. Le backend sera accessible à `http://localhost:8000`. // adapté en fonction de ce que vous aurez comme retour 
 
 8. Lancer les tests du backend (optionnel) :
 
@@ -93,7 +98,7 @@ cd project-root
 
     ```typescript
     import axios from 'axios';
-    axios.defaults.baseURL = "http://localhost:8000/api"; // Lien vers l'API du backend
+    axios.defaults.baseURL = "http://localhost:8000/api"; // Lien vers l'API du backend 
     ```
 
 4. Lancer le serveur de développement Vue.js :
@@ -119,10 +124,13 @@ cd project-root
 
 - `POST /login` : Authentification de l'utilisateur
 - `POST /register` : Création d'un nouvel utilisateur
+- `POST /logout` : Déconnexion d'un utilisateur
 - `GET /tasks` : Liste des tâches (nécessite authentification)
 - `POST /tasks` : Création d'une nouvelle tâche
 - `PUT /tasks/{id}` : Mise à jour d'une tâche
 - `DELETE /tasks/{id}` : Suppression d'une tâche
+
+
 
 ### Tests du backend
 
