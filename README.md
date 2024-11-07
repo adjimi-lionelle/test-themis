@@ -156,51 +156,53 @@ Cela va exécuter tous les tests définis pour vérifier le bon fonctionnement d
 
 1- Page de connexion 
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 
 2- Page de création de compte
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 
 3- Créer une tâche
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 
 4- Éditer une tâche
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 
 4- Liste des tâches
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 
 ### Test Api
 
-1- Créer en utilisateur 
+1- Créer un utilisateur 
 
-![alt text](image-1.png)
+![alt text](images/image-1.png)
+
 
 2- Connexion 
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
+
 
 3- Créer une tâche
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
+
 
 4- Liste des tâches d'un utilisateur
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
-5- 2diter une tâche
 
-![alt text](image-5.png)
+5- Éditer une tâche
 
-6- Supprimer une tâche
+![alt text](images/image-5.png)
 
 
