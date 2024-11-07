@@ -31,7 +31,7 @@
               <td>{{ task.due_date }}</td>
               <td>
                 <span :class="{'badge badge-success': task.completed, 'badge badge-warning': !task.completed}">
-                  {{ task.completed ? 'Completed' : 'Pending' }}
+                  {{ task.completed ? 'Terminée' : 'En cours' }}
                 </span>
               </td>
               <td>

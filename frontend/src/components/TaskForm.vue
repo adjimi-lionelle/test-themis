@@ -24,8 +24,8 @@
         <div v-if="showStatusField" class="form-group mb-3">
           <label for="status">Statut</label>
           <select class="form-control" id="status" v-model="task.completed">
-            <option :value="false">Pending / In Progress</option> <!-- Correspond à `false` dans la base de données -->
-            <option :value="true">Completed</option> <!-- Correspond à `true` dans la base de données -->
+            <option :value="false">En cours</option> <!-- Correspond à `false` dans la base de données -->
+            <option :value="true">Terminée</option> <!-- Correspond à `true` dans la base de données -->
           </select>
         </div>
 
