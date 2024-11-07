@@ -6,10 +6,11 @@ Ce projet est une application web utilisant un backend Laravel pour l'API et un 
 ## Prérequis
 
 - PHP ^8.1
-- Composer
+- Composer 2
 - Node.js ^16.x (pour Vue.js)
 - Vue.js 3
 - MySQL 8
+- Git
 
 ## Structure du projet
 

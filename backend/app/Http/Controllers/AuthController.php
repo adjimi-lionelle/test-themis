@@ -49,31 +49,6 @@ class AuthController extends Controller
         return response()->json(['token' => $token, 'user' => $user]);
     }
 
-    // Déconnexion de l'utilisateur
-   /* public function logout(Request $request)
-    {
-        $request->user()->currentAccessToken()->delete();
-        return response()->json('Déconnecté avec succès');
-    }*/
-
-   /* public function logout(Request $request)
-    {
-        // Vérifie que l'utilisateur est authentifié
-        if ($user = $request->user()) {
-            // Vérifie que l'utilisateur a un jeton actuel
-            if ($user->currentAccessToken()) {
-                // Supprime le jeton actuel
-                $user->currentAccessToken()->delete();
-                return response()->json(['message' => 'Logged out successfully'], 204);
-            }
-
-            // Si aucun jeton n'est trouvé
-            return response()->json(['message' => 'No active token found'], 404);
-        }
-
-        return response()->json(['message' => 'User not authenticated'], 401);
-    }*/
-
     public function logout(Request $request)
     {
         // Vérifie si l'utilisateur est authentifié
