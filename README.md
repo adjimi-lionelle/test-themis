@@ -148,3 +148,59 @@ Cela va exécuter tous les tests définis pour vérifier le bon fonctionnement d
 - **Seeders** : Les seeders peuvent être utilisés pour générer des données de test. Ils s'exécutent automatiquement avec `php artisan migrate --seed` ou individuellement avec `php artisan db:seed`.
 - **Vue Router** : Le frontend utilise Vue Router pour gérer la navigation.
 - **Authentification** : Le backend utilise Laravel Sanctum pour l'authentification. Assurez-vous que le token de session est inclus dans les requêtes API (via `Authorization: Bearer <token>`).
+
+
+## Quelques images de test 
+
+## Test frontend
+
+1- Page de connexion 
+
+![alt text](image-6.png)
+
+
+2- Page de création de compte
+
+![alt text](image-7.png)
+
+
+3- Créer une tâche
+
+![alt text](image-8.png)
+
+
+4- Éditer une tâche
+
+![alt text](image-9.png)
+
+
+4- Liste des tâches
+
+![alt text](image-10.png)
+
+
+### Test Api
+
+1- Créer en utilisateur 
+
+![alt text](image-1.png)
+
+2- Connexion 
+
+![alt text](image-2.png)
+
+3- Créer une tâche
+
+![alt text](image-3.png)
+
+4- Liste des tâches d'un utilisateur
+
+![alt text](image-4.png)
+
+5- 2diter une tâche
+
+![alt text](image-5.png)
+
+6- Supprimer une tâche
+
+
